@@ -57,7 +57,7 @@ article:nth-child(even) {
 	background-color: #a4a4a4;
 }
 
-.news article a h2:nth-child(1)::before {
+article:nth-child(-n+2) h2::before {
 	content: "new";
 	width: 10px;
 	height: 10px;
